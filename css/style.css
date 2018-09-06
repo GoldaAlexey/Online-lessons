@@ -104,6 +104,22 @@ article ul li,article ol li, article p{
     line-height: 17px;
     margin-bottom: 10px;
 }
+
+.strong{
+    font-weight: bold;
+}
+
+table td{
+    padding: 3px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-center{
+    text-align: center;
+}
 article p{
    padding-bottom: 15px;
 }
@@ -123,6 +139,7 @@ article h5{
     margin-left: 13px;
     margin-top: 20px;
     padding: 18px 6px 2px 18px;
+    position: fixed;
 }
 
 aside nav ul li{
