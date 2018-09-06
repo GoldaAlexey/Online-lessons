@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+
+body{
+    font-family: Arial;
+}
+
+.center{
+    width: 900px;
+    margin: 0 auto;
+}
+.cap{
+    background: #000000;
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.main_menu{
+    
+    height: 98px;
+    padding-top: 20px;
+    background: url(https://pp.userapi.com/c845418/v845418477/e8e12/TVzSdOopizg.jpg) #000 repeat-x;
+}
+.main_menu ul{
+    text-align: center;
+ 
+}
+.main_menu ul li{
+    display: inline;
+    margin: 0 11.5px;
+    font-size: 18px;   
+}
+.main_menu ul li:first-child{
+    margin-left: 0;
+}
+.main_menu ul li:last-child{
+    margin-right: 0;
+}
+
+.main_menu ul li a img{
+    width: 50px;
+    display: block;
+}
+.main_menu  ul li a{
+    width: 86px;
+    height: 86px;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;    
+    padding-top:10px;
+}
+
+.main_menu  ul li a:hover{
+    border: #000;
+    box-shadow: inset 2px 2px 2px black;
+    border-radius: 20px;
+    text-decoration: underline;
+}
+.modul{
+    background: url(https://pp.userapi.com/c844722/v844722477/e21ab/gi-hIbQEUxc.jpg) #000 repeat;    
+    height: 45px;
+    color: #ebebeb;
+    font-size: 22px;   
+    line-height: 45px; 
+}
+.content{
+    background: url(https://pp.userapi.com/c844722/v844722477/e21a4/zui_xuXFG5U.jpg) #000 repeat;
+}
+
+.lesson{
+    width: 600px;
+    display: inline-block;    
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+article{
+    padding-left: 20px;
+    margin-bottom: 30px;
+    background:#ffffff;
+    box-shadow: 0 0 10px #b8b8b8;
+}
+article h2{
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+article h3{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+article ul li,article ol li, article p{
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+article p{
+   padding-bottom: 15px;
+}
+
+article ul li ul li,article ol li ol li{
+    padding-left: 15px;
+}
+article h5{
+    padding-bottom: 10px;
+}
+.side-bar{
+    background:#ffffff;
+    box-shadow: 0 0 10px #b8b8b8;
+    width: 256px;
+    display: inline-block;    
+    vertical-align: top;        
+    margin-left: 13px;
+    margin-top: 20px;
+    padding: 18px 6px 2px 18px;
+}
+
+aside nav ul li{
+    margin-bottom: 16px;
+}
+aside nav ul li a{
+    font-size: 13px;
+    color: #000000;
+    text-decoration: underline;
+    
+}
+aside nav ul li a:hover{
+    text-decoration: none;
+}
+
+footer{
+    background: url(https://pp.userapi.com/c844722/v844722477/e21a4/zui_xuXFG5U.jpg) #000 repeat;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+footer p{
+    width: 600px;
+    text-align: right;
+    font-size: 12px;  
+    font-family: 'Times New Roman', Times, serif; 
+    color: #999999;
+}
